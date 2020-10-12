@@ -22,9 +22,14 @@
   flex-wrap: nowrap;
   
 }
-.div{
-  width: 300;
-  high
+
+.pic{
+  position: relative;
+  background-image: url(images-4.jpg);
+  background-position: left;
+  background-size: 1000px ;
+  padding-bottom: 1000px;
+
 }
 
 
