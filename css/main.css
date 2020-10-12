@@ -1,35 +1,33 @@
 /*Index changes
 */
+
 #header {
-  background-color: midnightblue;
-  padding: 40px;
-  text-align: center;
-  color: mediumorchid;
+    background-color: midnightblue;
+    padding: 40px;
+    text-align: center;
+    color: mediumorchid;
 }
 
 #bg {
-  background-image: url(images-6.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 350% 350%;
+    background-image: url(images-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
 }
-
 
 #navb {
-  background-color: royalblue;
-  padding: 5%;
-  flex-direction:row-reverse;
-  flex-wrap: nowrap;
-  
+    background-color: royalblue;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
-.pic{
-  position: relative;
-  background-image: url(images-4.jpg);
-  background-position: left;
-  background-size: 1000px ;
-  padding-bottom: 1000px;
-
+#link {
+    padding-right: 10%;
 }
 
-
+.scenery {
+    display: inline;
+    width: 33%;
+    height: 30%;
+}
