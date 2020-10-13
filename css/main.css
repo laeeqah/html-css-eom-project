@@ -17,7 +17,7 @@
 }
 
 #navb {
-    background-color: royalblue;
+    background-color: midnightblue;
     padding-left: 30%;
     padding-right: 30%;
 }
@@ -25,9 +25,23 @@
 #link {
     padding-right: 10%;
 }
+a:hover{
+    background-color: yellow;
+}
 
 .scenery {
     display: inline;
     width: 33%;
     height: 30%;
+}
+
+/* Main content changes*/
+.list{
+    float: left;
+    width: 30%;
+}
+.info:after{
+    content:"";
+    display: table;
+    clear: both;
 }
