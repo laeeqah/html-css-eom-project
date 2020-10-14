@@ -6,6 +6,7 @@
     padding: 40px;
     text-align: center;
     color: mediumorchid;
+    font-family: Purisa;
 }
 
 #bg {
@@ -44,4 +45,8 @@ a:hover{
     content:"";
     display: table;
     clear: both;
+}
+
+.h2,p{
+    padding-block: 0.5cm;
 }
