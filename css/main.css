@@ -6,47 +6,82 @@
     padding: 40px;
     text-align: center;
     color: mediumorchid;
-    font-family: Purisa;
+    font-family: cursive;
+}
+
+#futs {
+    background-color: midnightblue;
+    color: lightsalmon;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: lightsalmon;
 }
 
 #bg {
     background-image: url(images-6.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100;
     background-size: cover;
 }
 
 #navb {
-    background-color: midnightblue;
-    padding-left: 30%;
-    padding-right: 30%;
+    background-color: mediumorchid;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-#link {
-    padding-right: 10%;
+.link {
+    padding-right: 40px;
 }
-a:hover{
-    background-color: yellow;
+
+a:hover {
+    background-color:lightsalmon;
 }
 
 .scenery {
+    position: relative;
     display: inline;
-    width: 33%;
+    width: 30%;
     height: 30%;
+    transition: 3s;
+    backface-visibility: hidden;
+}
+.scenery:hover{
+    opacity: 0.1;
 }
 
+.abt{
+   position: absolute;
+}
+
+
 /* Main content changes*/
+
 .list{
     float: left;
-    width: 30%;
+    padding-right: 15px;
+    width: 25%;
+
 }
-.info:after{
-    content:"";
+
+.info:after {
+    content: "";
     display: table;
     clear: both;
 }
 
-.h2,p{
-    padding-block: 0.5cm;
+.h2,
+p,
+ol {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
 }
+
+/* FAQ*/
+
