@@ -1,5 +1,4 @@
-/*Index changes
-*/
+/*Index changes*/
 
 #header {
     background-color: midnightblue;
@@ -8,6 +7,8 @@
     color: mediumorchid;
     font-family: cursive;
 }
+
+
 
 #futs {
     background-color: midnightblue;
@@ -24,7 +25,7 @@ h2 {
     background-image: url(images-6.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100;
+    background-size: 100%;
     background-size: cover;
 }
 
@@ -35,7 +36,7 @@ h2 {
 }
 
 .link {
-    padding-right: 40px;
+    padding-right: 30px;
 }
 
 a:hover {
@@ -84,4 +85,6 @@ ol {
 }
 
 /* FAQ*/
+
+
 
