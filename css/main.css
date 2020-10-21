@@ -10,7 +10,7 @@
 
 
 
-#futs {
+#footer {
     background-color: midnightblue;
     color: lightsalmon;
     position: relative;
@@ -25,7 +25,7 @@ h2 {
     background-image: url(images-6.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 125px;
     background-size: cover;
 }
 
@@ -43,16 +43,52 @@ a:hover {
     background-color:lightsalmon;
 }
 
-.scenery {
+
+
+/* relevant styles */
+.img__wrap {
     position: relative;
+    
     display: inline;
-    width: 30%;
-    height: 30%;
-    transition: 3s;
-    backface-visibility: hidden;
+    
+    
 }
-.scenery:hover{
-    opacity: 0.1;
+  
+.img__description_layer {
+    position: absolute;
+    top: -207px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(230, 94, 178, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+  
+.img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+  
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+}
+  
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}
+
+.img__img {
+    width: 633px;
 }
 
 .abt{
