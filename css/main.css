@@ -44,11 +44,11 @@
 #navb {
     background-color: mediumorchid;
     padding-left: 25%;
-    padding-right: 25%;
+    padding-right: 18%;
 }
 
 .link {
-    padding-right: 25px;
+    padding-right: 50px;
 }
 
 a:hover {
@@ -188,12 +188,19 @@ ol {
         padding-right: 1px;
     }
     .link {
-        padding-inline-start: 1px;
+        padding-inline-start: 3px;
     }
+    .card{
+        padding-top: 2px;
+    }
+    
 }
 
 @media only screen and (max-width: 375px) {
     .sky {
+        padding-left: 37px;
+    }
+    .boy{
         padding-left: 37px;
     }
 }
