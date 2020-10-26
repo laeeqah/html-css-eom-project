@@ -1,7 +1,8 @@
 /*Index changes*/
+
 * {
-    margin: 2px;
-    padding: 1px;
+    margin: 1px;
+    padding: 0;
     border: 0;
 }
 
@@ -12,24 +13,32 @@
     color: mediumorchid;
     font-family: cursive;
 }
+
 .footer {
     background-color: midnightblue;
-    color: black;
+    color: lightsalmon;
     position: relative;
+    margin-top: 50px;
+    width: 100%;
+    top: 110px;
+    float: left;
+}
+
+.futer p {
+    color: lightsalmon;
 }
 
 .header2 {
     text-align: center;
     color: lightsalmon;
-    margin-block: 57px;
+    padding: 20px;
 }
 
 .bg {
-    background-image: url(images-6.jpg);
-    background-position: center;
+    background-image: linear-gradient(180deg, mediumvioletred, lightsalmon);
     background-repeat: no-repeat;
-    background-size: 150px;
     background-size: cover;
+    background-color: lightsalmon;
 }
 
 #navb {
@@ -38,31 +47,27 @@
     padding-right: 25%;
 }
 
-#line{
-    background-color: blueviolet;
-    padding: 15px;
-    margin-block: 15px;
-}
-
-
 .link {
-    padding-right: 50px;
+    padding-right: 25px;
 }
 
 a:hover {
     background-color: lightsalmon;
 }
 
+
 /* relevant styles */
 
-
-.content{
+.content {
     float: left;
+    display: flex;
+    clear: both;
 }
-.card{
-    width:50%;
+
+.card {
+    width: 50%;
     margin: 20px auto;
-    border: 3px solid rgba(0,0,0,.125);
+    border: 3px solid rgba(0, 0, 0, .125);
     position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -70,19 +75,23 @@ a:hover {
     opacity: 0.7;
     transition: all 0.5s linear;
 }
-.card:hover{
+
+.card:hover {
     opacity: 1;
 }
-.card h3{
+
+.card h3 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
     color: mediumvioletred;
 }
-.card img{
+
+.card img {
     width: 100%;
 }
-.card p{
+
+.card p {
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
@@ -90,16 +99,18 @@ a:hover {
     color: #c71585;
     transition: all 0.5s linear;
 }
-.card:hover p{
+
+.card:hover p {
     color: black;
 }
-.card .button{
+
+.card .button {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: -15px;
 }
-.card .button button{
+
+.card .button button {
     font-size: 16px;
     border-radius: 10px;
     background: #c71585;
@@ -109,17 +120,12 @@ a:hover {
     outline: 0;
 }
 
-
 .abt {
     position: absolute;
 }
 
 
 /* Main content changes*/
-
-.star section{
-    color: yellow;
-}
 
 .list {
     float: left;
@@ -131,13 +137,11 @@ a:hover {
     content: "";
     display: table;
     clear: both;
-
 }
 
-.books{
-    color: mediumvioletred;
+.books {
+    color: lightsalmon;
 }
-
 
 p,
 ol {
@@ -147,9 +151,49 @@ ol {
     font-size: large;
 }
 
+
 /*About Us*/
 
+.banner {
+    width: 0px;
+}
+
+.sky {
+    width: 1336px;
+}
+
+
 /* FAQ*/
-#boy{
-    position: relative;
+
+
+/* Mobile styling */
+
+@media only screen and (max-width: 425px) {
+    .content {
+        display: block;
+        float: none;
+    }
+    .sky {
+        width: 300px;
+        padding-left: 56px;
+    }
+    .info {
+        display: block;
+    }
+    .para p {
+        position: inline;
+    }
+    #navb {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .link {
+        padding-inline-start: 1px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sky {
+        padding-left: 37px;
+    }
 }
