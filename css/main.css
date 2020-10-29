@@ -7,17 +7,17 @@
 }
 
 .header {
-    background-color: midnightblue;
+    background-color: #de1761;
     padding: 40px;
     text-align: center;
-    color: mediumorchid;
-    font-family: cursive;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .footer {
-    background-color: midnightblue;
-    color: lightsalmon;
+    background-color: #de1761;
+    color:lightseagreen ;
     position: relative;
     margin-top: 50px;
     width: 100%;
@@ -26,25 +26,25 @@
 }
 
 .futer p,h2{
-    color: lightsalmon;
+    color: black;
     text-align: center;
 }
 
 .header2 {
     text-align: center;
-    color: lightsalmon;
+    color: black;
     padding: 20px;
 }
 
 .bg {
-    background-image: linear-gradient(180deg, mediumvioletred, lightsalmon);
+    background-image: linear-gradient(180deg, #de1761, lightsalmon);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: lightsalmon;
 }
 
 #navb {
-    background-color: mediumorchid;
+    background-color: lightcoral;
     padding-left: 25%;
     padding-right: 18%;
 }
@@ -54,7 +54,7 @@
 }
 
 a:hover {
-    background-color: lightsalmon;
+    background-color: #ff0095;
 }
 
 
@@ -76,7 +76,10 @@ a:hover {
     border-radius: 10px;
     opacity: 0.7;
     transition: all 0.5s linear;
+    margin-left: 10px;
+    margin-right: 6px;
 }
+
 
 .card:hover {
     opacity: 1;
@@ -86,7 +89,7 @@ a:hover {
     text-align: center;
     margin-top: 0;
     margin-bottom: 10px;
-    color: mediumvioletred;
+    color: white;
 }
 
 .card img {
@@ -98,7 +101,7 @@ a:hover {
     padding-left: 5px;
     padding-right: 5px;
     line-height: 23px;
-    color: #c71585;
+    color: black;
     transition: all 0.5s linear;
 }
 
@@ -115,10 +118,10 @@ a:hover {
 .card .button button {
     font-size: 16px;
     border-radius: 10px;
-    background: #c71585;
+    background: #de1761;
     color: white;
     padding: 5px;
-    border: 2px solid #c71585;
+    border: 2px solid #de1761;
     outline: 0;
 }
 
@@ -133,6 +136,7 @@ a:hover {
     float: left;
     padding-right: 15px;
     width: 25%;
+    height: 323px;
 }
 
 .info:after {
@@ -142,7 +146,7 @@ a:hover {
 }
 
 .books {
-    color: lightsalmon;
+    color:black;
 }
 
 p,
@@ -150,18 +154,75 @@ ol {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
+}
+/*contact us styling*/
+
+body { background:rgb(30,30,40); }
+.contact{
+    color: white;
 }
 
+.user-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid black;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:30%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.user-input:focus { border:2px solid #de1761; }
+
+
+.submit {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:black;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.submit:hover { 
+    background: #de1761; 
+}
 
 /*About Us*/
 
+
+.abtus{
+    padding-left: 200px;
+    padding-right: 275px;
+}
 .banner {
-    width: 0px;
+    width: 100%;
+    padding-left: 12%;
 }
 
 .sky {
-    width: 1336px;
+    width: 70%;
+}
+
+/*FAQ*/
+
+.faq{
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 
@@ -191,6 +252,28 @@ ol {
     }
     .card{
         padding-top: 2px;
+        margin-bottom: 22px;
+    }
+    .list{
+        width: 40%;
+    }
+    .abtus{
+        padding: 0px;
+    }
+    .banner{
+        padding: 0px;
+    }
+    .banner2{
+        padding: 0px;
+    }
+    .faq{
+        padding: 0px;
+    }
+    form {
+        margin:50px auto
+    }
+    .user-input{
+        width: 100%;
     }
     
 }
@@ -198,5 +281,11 @@ ol {
 @media only screen and (max-width: 375px) {
     .sky {
         padding-left: 37px;
+    }
+    .abtus{
+        padding: 0px;
+    }
+    .faq{
+        padding: 0px;
     }
 }
