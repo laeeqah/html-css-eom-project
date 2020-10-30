@@ -202,16 +202,26 @@ body { background:rgb(30,30,40); }
     background: #de1761; 
 }
 
+.map{
+    height: 370px;
+    width: 270px;
+}
+
 /*About Us*/
 
 
 .abtus{
-    padding-left: 200px;
-    padding-right: 275px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: large;
 }
 .banner {
     width: 70%;
-    padding-left: 12%;
+    padding-left: 26%;
+}
+.banner2{
+    width: 70%;
+    padding-left: 25%;
 }
 
 .sky {
@@ -221,8 +231,7 @@ body { background:rgb(30,30,40); }
 /*FAQ*/
 
 .faq{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 29%;
 }
 
 
@@ -272,6 +281,9 @@ body { background:rgb(30,30,40); }
     form {
         margin:50px auto
     }
+    .location{
+        padding-right: 0px;
+    }
     .user-input{
         width: 100%;
     }
@@ -280,7 +292,7 @@ body { background:rgb(30,30,40); }
 
 @media only screen and (max-width: 375px) {
     .sky {
-        padding-left: 37px;
+        padding-left: 6%;
     }
     .abtus{
         padding: 0px;
